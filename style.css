@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(19, 16, 16);
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+
+}
+ .card{
+    background: rgb(12, 0, 0);
+    padding: 1rem;
+    width: 60%;
+    min-height:80vh;
+    overflow: scroll;
+    border-radius: 0.6px;
+}
+.card-title{
+    color: burlywood;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+input{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    width: 80%;
+    height: 40px;
+}
+.card-body{
+    background:rgb(153, 55, 55);
+    height: 90vh;
+    width:80%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.btn{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    background-color: orange;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    width:18%;
+    height:40px ;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+#deleteButton{
+    color: rgb(34, 31, 31);
+    width:28px ;
+    background-color:rgb(222, 222, 45) ;
+}
+#deleteButton:hover{
+    background-color: #ddffdd;
+    color: #f44336;
+}
+.li-style{
+   display: flex;
+   justify-content:space-between ;
+   align-items: center; 
+   background-color: #333;
+   color: white;
+   padding: 0.5rem;
+   border-radius: 0.6rem;
+   margin: 1rem 0;
+   width: 95%;
+   transition: all 0.3s;
+}
+.li-style:hover {
+    background-color: #2e2d2d;
+}
+.bg-success{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ddffdd;
+    border-left: 6px solid #04aa6d;
+}
+.bg-delete{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
+
+
