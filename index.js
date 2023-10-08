@@ -1,7 +1,5 @@
-const container=document.querySelector(".container");
 const todoForm=document.querySelector(".todo-form");
 const todoInput=document.querySelector("#input");
-const button=document.querySelector("#btn");
 const list=document.getElementById("lists");
 const msgelement = document.getElementById("msg");
 //show msg
